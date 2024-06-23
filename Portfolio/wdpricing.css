@@ -1,0 +1,65 @@
+body{
+  background-image: url(stacked-waves-haikei.svg);
+  background-position: top;
+  background-size: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-plan {
+ 
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-plan h2 {
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .pricing-plan p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pricing-plan li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .pricing-plan li:last-child {
+    border-bottom: none;
+  }
+  
+  .pricing-plan button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #337ab7;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .pricing-plan button:hover {
+    background-color: #23527c;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+  }

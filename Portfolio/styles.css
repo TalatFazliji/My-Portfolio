@@ -1,0 +1,210 @@
+*{
+    font-family: "Times New Roman", Times, serif;
+    
+    
+}
+
+
+#hompage{
+    background-image: url(hp2.svg);
+    background-position: top;
+    background-size: 100%;
+    padding-bottom: 0px;
+}
+
+.name{
+    color: #fff;
+    margin-top: 130px;
+    font-family: fantasy;
+    transition: 0.5s ease;
+}
+.name:hover {
+    transform: scale(1.1);
+    
+}
+p{
+    color: #80b0bf;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+}
+p:hover {
+    transform: scale(1.1);
+   
+}
+
+h2{
+    color: #328ba8;
+    transition: 0.5s ease;
+}
+h2:hover {
+    transform: scale(1.1);
+    
+}
+
+#photo{
+    height: 500px;
+    width: auto;
+    margin-bottom: 50px ;
+    margin-top: 50px;
+    transition: 0.5s ease;
+
+}
+#photo:hover {
+    transform: scale(1.1);
+}
+/* ABOUT ME */
+
+
+
+/*  */
+#about{
+    background-image: url(f1.svg);
+    background-position: center;
+    background-size: 100%;
+    padding: 40px 0;
+    padding-top: 2rem;
+    margin-top: 50px;
+   
+}
+
+.aboutmeName{
+
+    text-align: center;
+    font-family: fantasy;
+    color: #328ba8;
+    transition: 0.5s ease;
+}
+.aboutmeName:hover {
+    transform: scale(1.1);
+}
+span{
+    color: white;
+}
+.aboutmeContent{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: 0.5s ease;
+}
+.aboutmeContent:hover {
+    transform: scale(1.1);
+    
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    transition: 0.5s ease;
+    color: whitesmoke;
+}
+h4:hover{
+    transform: scale(1.1);
+    
+}
+.progress-container {
+    margin-bottom: 20px;
+    transition: 0.5s ease;
+}
+.progress-container:hover{
+    transform: scale(1.1);
+}
+
+/* SERVICES */
+#services{
+ background-image: url(f2.svg);
+ background-position: center;
+ background-size: 100%;
+margin-top: 50px;
+}
+.servicesname{
+    
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: fantasy;
+    color: #328ba8;
+    transition: 0.5s ease;
+}
+.servicesname:hover {
+    transform: scale(1.1);
+}
+
+.card-title{
+    color: #328ba8;
+    
+}
+.card-text{
+    color: black;
+}
+.card {
+    transition: transform 0.5s ease;
+    margin-bottom: 50px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+/* MY WORK */
+#mywork{
+    background-image: url(f1.svg);
+    background-position: center;
+    background-size: 100%;
+    margin-top: 50px;
+    
+}
+
+
+.myworkname{
+    
+    text-align: center;
+    font-family: fantasy;
+    color: #328ba8;
+    transition: 0.5s ease;
+}
+.myworkname:hover {
+    transform: scale(1.1);
+}
+/* CONTACT */
+#contact {
+    padding: 20px;
+    
+    background-color: #141212; /* Background color of the section */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional: Add shadow for depth */
+    position: relative; /* Ensure positioning context */
+    z-index: 2;
+    
+    
+}
+
+.contactname {
+    text-align: center;
+    font-family: fantasy;
+    color: #328ba8;
+    margin-bottom: 20px;
+    transition: 2s;
+}
+.contactname:hover {
+    transform: scale(1.1);
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#contact ul li {
+    margin: 10px 0;
+}
+
+#contact ul li a {
+    color: #328ba8;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#contact ul li a:hover {
+    text-decoration: underline;
+    color: #80b0bf;
+}
